@@ -44,6 +44,8 @@ public slots:
 private slots:
     void on_Update_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::Widget *ui;
 

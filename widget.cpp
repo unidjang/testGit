@@ -152,3 +152,8 @@ void Widget::on_Update_clicked()   // 此方法已集成到“松开鼠标左键
     needUpdate = true;
     update();  // 调用 update 函数触发 paintEvent
 }
+
+void Widget::on_pushButton_clicked()
+{
+    qDebug()<<"hello world";
+}
